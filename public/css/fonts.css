@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "SC_DUBAI";
+    font-style: all;
+    src: url("../fonts/SC_DUBAI.ttf");
+}
+
+@font-face {
+    font-family: "Cairo";
+    font-style: all;
+    src: url("../fonts/Cairo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: all;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DroidKufi-Bold";
+    font-style: all;
+    src: url("../fonts/DroidKufi/DroidKufi-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DroidKufi-Regular";
+    font-style: all;
+    src: url("../fonts/DroidKufi/DroidKufi-Regular.ttf");
+}
+
+body {
+    font-family: "Cairo" !important;
+}
+
+.sidebar {
+    font-family: "Cairo" !important;
+    font-size: 18px;
+}
+
+.sidebar .nav .nav-item .nav-link {
+    color: #000;
+}
